@@ -24,8 +24,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/newbie-challenge-completed-using-css-flexbox-R5T9MwN-87
+
+- Live Site URL: https://fem-nft-component-card.netlify.app/
 
 ## My process
 
