@@ -36,7 +36,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
-        color: black;
+        color: white;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -44,43 +44,29 @@
     </style>
   </head>
   <body>
-    <main>
-      <article class="card">
-        <div class="product__img">
-          <img src="./images/image-equilibrium.jpg" alt="image of cube" />
+    <div class="card">
+      <div class="image">
+        <img src="./images/image-equilibrium.jpg" class="mainImg" alt="" />
+        <div>
+          <img src="./images/icon-view.svg" alt="" />
         </div>
-        <div class="card__content">
-          <h1 class="card__title">Equilibrium #3429</h1>
-          <p class="card__description">
-            Our Equilibrium collection promotes balance and calm.
-          </p>
-          <div class="flex-group">
-            <div class="product__price">
-              <img src="./images/icon-ethereum.svg" alt="etherium icon" />
-              <p>0.041 ETH</p>
-            </div>
-            <div class="product__time">
-              <img src="./images/icon-clock.svg" alt="clock" />
-              <p>3 days left</p>
-            </div>
-          </div>
-          <div class="underline"></div>
-          <i class="fa-light fa-eye"></i>
-          <div class="product__creator">
-            <img src="./images/image-avatar.png" alt="avatar" />
-            <div class="credits">
-              <p class="attribute">Creation of</p>
-              <p class="creator__name">Jules Wyvern</p>
-            </div>
-          </div>
+      </div>
+      <h3>Equilibriam #3429</h3>
+      <div class="description">
+        Our Equilibriam collection promotes balance and calm.
+      </div>
+      <div class="price-days">
+        <div class="price">
+          <img src="./images/icon-ethereum.svg" alt="" />0.041 ETH
         </div>
-      </article>
-      <footer class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">John Davidson</a>.
-      </footer>
-    </main>
+        <div class="days">
+          <img src="./images/icon-clock.svg" alt="" />3 days left
+        </div>
+      </div>
+      <div class="creator">
+        <img src="./images/image-avatar.png" alt="" class="avatar" />
+        Creation of <span>Jules Wyvern</span>
+      </div>
+    </div>
   </body>
 </html>
