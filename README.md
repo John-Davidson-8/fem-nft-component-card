@@ -20,7 +20,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![![Alt text](design/fem-nft-card.png)](./screenshot.jpg)
+![image of nft card](./images/nft-screenshot.png)
 
 ### Links
 
